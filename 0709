@@ -6,6 +6,7 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: a, server: a.na-e.co, port: 443, type: trojan, password: !<str> 0801.edu}
+  - {name: v3, server: v3.na-e.co, port: 443, type: trojan, password: !<str> 0801.edu}
   - {name: wt, server: w.na-e.co, port: 443, type: trojan, password: !<str> 0801.edu}
   - {name: w, server: "w.na-e.co", port: 35268, type: vmess, uuid: f1641439-8d6a-48d4-90d3-2c9a70360801, alterId: 0, cipher: auto, tls: false}
   - {name: wd, server: "w.na-e.co", port: 10000, type: vmess, uuid: f1641439-8d6a-48d4-90d3-2c9a70360801, alterId: 0, cipher: auto, tls: false}
